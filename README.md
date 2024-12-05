@@ -1,16 +1,16 @@
 Proficiency Detector 🎯
 
-Overview
+Overview:
 This project is a machine learning model that predicts a user's new proficiency level based on their current proficiency, quiz difficulty, and quiz score. The model uses a neural network to estimate how a user's skills might improve after taking a quiz.
 
-Features
+Features:
 Predicts new proficiency levels using a multi-layer neural network
 Handles different quiz difficulties (easy, medium, hard)
 Provides visualization of model performance
 Calculates prediction accuracy using Mean Absolute Error (MAE)
 
 
-Prerequisites
+Prerequisites:
 Python 3.7+
 Libraries:
 pandas
@@ -20,7 +20,7 @@ TensorFlow/Keras
 matplotlib
 
 
-Dataset
+Dataset:
 The model uses a CSV file quiz_proficiency_dataset.csv with the following columns:
 current_proficiency: User's initial skill level (0-100)
 quiz_difficulty: Difficulty of the quiz ('easy', 'medium', 'hard')
@@ -28,7 +28,7 @@ quiz_score: Score achieved in the quiz
 new_proficiency: Updated skill level after the quiz
 
 
-Model Architecture
+Model Architecture:
 The neural network consists of:
 
 
